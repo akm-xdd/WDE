@@ -5,7 +5,7 @@ const MongoClient = mongodb.MongoClient;
 let database;
 
 async function connectToDatabase() {
-  const client = await MongoClient.connect('mongodb://127.0.0.1:27017');
+  const client = await MongoClient.connect('mongodb+srv://akm-xdd:unJK0yAO0XMVQPLp@cluster0.bxpn453.mongodb.net/');
   database = client.db('online-shop');
 }
 
